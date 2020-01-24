@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding: 30px;
+    width: 100%;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: small;
+    padding: 15px;   
+    width: 100%;
+}

@@ -1,0 +1,96 @@
+.container {
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+}
+
+.form {
+    display: block;
+	margin: 20px;	
+}
+
+.form h3 {
+	font-size: x-large;
+}
+
+.form p {
+	text-align: left;
+	padding-left: 1.7em;
+	font-size: large;
+	font-family: "Liberation Serif";
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.form-erro {
+    will-change: transform;
+	font-family: "Helvetica", "Arial", sans-serif;
+	padding: 15px;
+	box-sizing: border-box;
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	transform: translateY(100%);
+	background: #ef5350;
+	color: rgba(0,0,0,.6);
+	font-weight: bold;
+	background: #454545;
+	color: white;
+	font-weight: normal;
+	animation: toast 5s ease forwards;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	text-align: center;
+}
+
+textarea {
+	width: 90em;
+	background-color: #d6d6c2;
+	border-radius: 10px;
+}
+
+.excluir {
+	background-image: url("../img/bin2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+    width: 30px;
+	padding: 10px;
+}
+
+.excluir-sumindo {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+table {
+	font-size: large;
+	align-content: center;
+	margin: 20px auto;
+	
+}
+
+.tabela th, td{
+    border: 2px solid black;
+    padding: 2px;
+    padding-left: 10px;
+	padding-right: 10px;
+	width: 15em;
+}
+
+.form-salvar {
+	position: absolute;
+	font-size: 1em;
+	margin-right: 2em;
+	padding: .35em 1em;
+	background-color: #eeeea8;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-weight: bold;
+	
+}
+
+section h3 {
+	font-size: x-large;
+	
+}

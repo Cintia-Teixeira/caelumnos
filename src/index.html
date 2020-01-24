@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/container.css">
+
+    <title>Caelum-Alunos</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Caelum - Alunos</h1>
+        <h2>Sistema de cadastro de alunos</h2>
+    </header>
+
+    <div class="container">
+
+        <form class="form">
+            <h3>Cadastro de Alunos</h3>
+            <br>
+            <p>Matrícula:</p>
+            <textarea id="matricula"></textarea>
+            <p>Nome:</p>
+            <textarea id="nome"></textarea>
+            <br><br>
+            <input type="submit" class="form-salvar" value="Salvar">
+            <br><br>
+        </form>
+
+        <section class="tabela container">
+           <p><h3>Listagem de Alunos</h3></p>
+            
+            <table id="tabela">
+               <tr>
+                    <th>Matricula</th>
+                    <th>Nome</th>
+                    <th> </th>
+                </tr>
+                 
+                
+            </table>
+        </section>
+    </div>
+    <footer>
+        <p>&copy desenvolvido por Cintia Teixeira</p>
+    </footer>
+
+    <script src="js/cadastroDeAlunos/form.js"></script>
+    <script src="js/cadastroDeAlunos/tabela.js"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+</body>
